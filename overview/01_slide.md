@@ -13,22 +13,51 @@
 
 ## "A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write." from [ruby-lang.org](http://ruby-lang.org)
 
-!SLIDE bullets
-# Ruby is a dynamic language #
+!SLIDE
+# Object oriented #
 
-* Performs operations at runtime that static languages perform at compilation time
-* Weakly typed
-* Duck typed
+!SLIDE
 
-!SLIDE bullets
-# Ruby is a dynamic language #
+# Everything is an object #
 
-* Ruby embraces many programming styles
-* There are many solutions to the same problem
+    @@@ruby
+    1.class   # => Fixnum
+    'a'.class # => String
+    :b.class  # => Symbol
 
-!SLIDE bullets
-# Consistent syntax #
+    class Foo
+    end
+    Foo.new.class # => Foo
 
-* The Hash (Dictionairies) and Array API is much alike
-* Everything is an object
-* Ability to extend the language easily (Metaprogramming)
+!SLIDE
+
+# Metaprogramming #
+
+    @@@ruby
+    class Fixnum
+      def even?
+        self % 2
+      end
+    end
+    1.even? # => False
+    2.even? # => True
+
+!SLIDE
+
+# Dynamically typed #
+
+    @@@ruby
+    def multiply(bar)
+      bar * 2
+    end
+    multiply(42)
+    multiply("John")
+
+!SLIDE
+# Philosophy #
+
+## Focus on the programmer, not the computer.
+
+!SLIDE
+## Inspired by Perl, Smalltalk and Lisp
+
