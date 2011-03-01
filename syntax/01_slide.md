@@ -47,7 +47,7 @@
     @@@ruby
     puts "What's your name?"
     name = gets # prompts user for name
-    puts "Hello " + name
+    puts "Hello " + name # => "Hello Simon"
 
 !SLIDE
 
