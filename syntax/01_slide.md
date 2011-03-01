@@ -24,6 +24,7 @@
     end
 
     puts "Hello World" if new_at_ruby?
+    puts "Hello World" unless hardcore_rubyist?
 
 !SLIDE
 
@@ -48,6 +49,7 @@
     puts "What's your name?"
     name = gets # prompts user for name
     puts "Hello " + name # => "Hello Simon"
+    puts "Hello #{name}" # => "Hello Simon"
 
 !SLIDE
 
@@ -82,3 +84,12 @@
 ## When the user inputs something that's not show, it's a course the student is attending. Add this course to an array called courses. When the user types "show", simply `#puts` the courses array.
 
 ## Tip 1: If the courses array is defined within `while` the array will be empty on the next `while` run. Define the empty array outside the `while` block.
+
+!SLIDE
+
+# Iterators #
+
+    @@@ruby
+    ["Jonas", "Simon"].map { |name| puts name }
+    # => Jonas
+    # => Simon
