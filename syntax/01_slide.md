@@ -71,9 +71,9 @@
 # Arrays #
 
     @@@ruby
-    names = [1, 2]
-    names << "John" # => [1, 2, "John"]
-    names - [2]     # => [1, "John"]
+    array = [1, 2]
+    array << "John" # => [1, 2, "John"]
+    array - [2]     # => [1, "John"]
 
 !SLIDE
 

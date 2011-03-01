@@ -31,7 +31,7 @@
 
 !SLIDE
 
-# Metaprogramming #
+# Extend core objects easily #
 
     @@@ruby
     class Fixnum
@@ -47,8 +47,8 @@
 # Dynamically typed #
 
     @@@ruby
-    def multiply(bar)
-      bar * 2
+    def multiply(object)
+      object * 2
     end
     multiply(42)
     multiply("John")
