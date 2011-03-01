@@ -1,1 +1,7 @@
-{ "name": "My Preso", "sections": [ {"section":"one"} ]}
+{ 
+  "name": "Ruby Introduction",
+  "sections": [ 
+    {"section":"overview"},
+    {"section":"syntax"},
+  ]
+}
