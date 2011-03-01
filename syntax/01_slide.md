@@ -27,7 +27,7 @@
 
 !SLIDE
 
-# Excercise #
+# Exercise #
 
 ## Write a conditional structure in which if the variable is equal to the string "show" it should #puts "Hello world" otherwise it should #puts "Nevermind"
 
@@ -51,7 +51,7 @@
 
 !SLIDE
 
-# Excercise #
+# Exercise #
 
 ## When the user inputs "show" the program should output `"Hello World"` else it should output `"Nevermind"` (write a little instruction message with `#puts` that explains how the user interacts with your program)
 ## This should repeat forever
@@ -77,7 +77,7 @@
 
 !SLIDE
 
-# Excercise #
+# Exercise #
 
 ## When the user inputs something that's not show, it's a course the student is attending. Add this course to an array called courses. When the user types "show", simply `#puts` the courses array.
 

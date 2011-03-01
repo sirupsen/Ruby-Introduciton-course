@@ -31,16 +31,16 @@
 
 !SLIDE
 
-# Extend core objects easily #
+# Open Classes #
 
     @@@ruby
     class Fixnum
-      def even?
-        self % 2
+      def square
+        self * self
       end
     end
-    1.even? # => False
-    2.even? # => True
+    2.square # => 4
+    8.square # => 64
 
 !SLIDE
 
@@ -50,8 +50,8 @@
     def multiply(object)
       object * 2
     end
-    multiply(42)
-    multiply("John")
+    multiply(42)     # => 84
+    multiply("John") # => "JohnJohn"
 
 !SLIDE
 # Philosophy #
