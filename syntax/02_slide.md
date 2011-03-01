@@ -18,11 +18,9 @@
 # Iterator over hashes #
 
     @@@ruby
-    students.each do |student|
-      puts "#{student[:name]}, (#{student[:age]})"
-    end
-    # => Jonas, (27)
-    # => Simon, (16)
+    students.each { |s| puts "#{s[:name]} }
+    # => Jonas
+    # => Simon
 
 !SLIDE
 

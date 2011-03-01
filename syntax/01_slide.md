@@ -47,7 +47,7 @@
     
     @@@ruby
     puts "What's your name?"
-    name = gets # prompts user for name
+    name = gets.chomp # prompts user for name
     puts "Hello " + name # => "Hello Simon"
     puts "Hello #{name}" # => "Hello Simon"
 
@@ -90,6 +90,6 @@
 # Iterators #
 
     @@@ruby
-    ["Jonas", "Simon"].map { |name| puts name }
+    ["Jonas", "Simon"].each { |name| puts name }
     # => Jonas
     # => Simon

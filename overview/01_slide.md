@@ -1,7 +1,7 @@
 !SLIDE 
 # Introduction to Ruby #
 
-## With [Simon H. Eskildsen](http://sirupsen.com) and Jonas Grau
+## With [Simon H. Eskildsen](http://sirupsen.com) and [Jonas Grau](http://subvision.dk)
 
 !SLIDE bullets
 # Presentation structure #
