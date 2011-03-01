@@ -56,7 +56,7 @@
 ## When the user inputs "show" the program should output `"Hello World"` else it should output `"Nevermind"` (write a little instruction message with `#puts` that explains how the user interacts with your program)
 ## This should repeat forever
 
-## Tip 1: Remember that `#gets` wait for the users input and blocks until then
+## Tip 1: Remember that `#gets` wait for the user's input and blocks until then
 ## Tip 2: `while` with the condition `true` repeats forever
 
 !SLIDE
